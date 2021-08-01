@@ -9,7 +9,7 @@ function Header() {
   return (
     <div className="header">
       <div className="header__logo">
-      <img className="logo__image" src="https://img.icons8.com/doodle/50/000000/stack.png" alt=""/>Full Stack Dev
+      <img className="logo__image" src="https://img.icons8.com/doodle/50/000000/stack.png" alt=""/>Full Stack Developer
       </div>
       <div className="menu">
         <div className="web__menu">

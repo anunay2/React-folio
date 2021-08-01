@@ -1,0 +1,45 @@
+.skill__card {
+  width: max-content;
+  padding: 8px 16px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 6px;
+  border-radius: 8px;
+}
+
+.skill__icon{
+    display: flex;
+    flex-direction: row;
+    align-self: start;
+}
+
+.skill__icon > img {
+  display: block;
+  max-width: 230px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+}
+
+.skill__name {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 720px) {
+  .skill__card {
+    width: max-content;
+    height: 100px;
+  }
+  .skill__name{
+      font-size: 12px;
+  }
+  .skill__icon > img {
+    max-width: 230px;
+    max-height: 50px;
+  }
+}

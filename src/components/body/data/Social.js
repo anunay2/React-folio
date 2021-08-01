@@ -1,0 +1,22 @@
+export const SocialData = [
+    {
+        platform:"LinkedIn",
+        link:"https://www.linkedin.com/in/anunay-kumar-16b7b9152/",
+        icon:require('../../../assets/linkedin.png').default,
+    },
+    {
+        platform:"Github",
+        link:"https://github.com/anunay2",
+        icon:require('../../../assets/github.png').default,
+    },
+    {
+        platform:"Mail",
+        link:"mailto:someone@yoursite.com",
+        icon:require('../../../assets/gmail.png').default,
+    },
+    {
+        platform:"Instagram",
+        link:"https://www.instagram.com/anu_nay_kumar/",
+        icon:require('../../../assets/instagram.png').default,
+    },
+];

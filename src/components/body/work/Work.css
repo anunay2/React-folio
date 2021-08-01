@@ -1,0 +1,12 @@
+.work{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+
+.work__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    margin: 24px 0px;
+}
