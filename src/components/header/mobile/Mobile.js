@@ -8,22 +8,22 @@ function Mobile({ isOpen, setIsOpen }) {
         <i class="fi-rr-cross-circle"></i>
       </div>
       <div className="mobile__options">
-        <div className="mobile__option">
+        <div className="mobile__option" onClick={() => setIsOpen(!isOpen)}>
           <a href="#project">
             <i class="fi-rr-edit-alt option__icon"></i>Projects
           </a>
         </div>
-        <div className="mobile__option">
+        <div className="mobile__option" onClick={() => setIsOpen(!isOpen)}>
           <a href="#skill">
             <i class="fi-rr-laptop option__icon option__icon"></i>Skills
           </a>
         </div>
-        <div className="mobile__option">
+        <div className="mobile__option" onClick={() => setIsOpen(!isOpen)} >
           <a href='#work'>
             <i class="fi-rr-briefcase option__icon"></i>Work
           </a>
         </div>
-        <div className="mobile__option">
+        <div className="mobile__option" onClick={() => setIsOpen(!isOpen)}>
           <a href='#contact'>
             <i class="fi-rr-microphone option__icon"></i>Contact
           </a>

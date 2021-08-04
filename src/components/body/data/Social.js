@@ -11,7 +11,7 @@ export const SocialData = [
     },
     {
         platform:"Mail",
-        link:"mailto:someone@yoursite.com",
+        link:"mailto:anunay_kumar@hotmail.com",
         icon:require('../../../assets/gmail.png').default,
     },
     {

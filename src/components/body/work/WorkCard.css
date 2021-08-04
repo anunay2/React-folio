@@ -1,44 +1,52 @@
-.work__card{
-    padding:8px;
-    display: flex;
-    margin-top: 16px;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row-reverse;
+.work__card {
+  padding: 8px;
+  display: flex;
+  margin-top: 16px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 
-.work__logo{
-    height:50px;
+.work__logo {
+  height: 50px;
 }
-.company__name{
-    margin-bottom: 2px;
+.company__name {
+  margin-bottom: 2px;
 }
 
-.work__info{
-    display: flex;
-    align-items: flex-start;
+.company__role {
+  margin-bottom: 2px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.company__role > a {
+    text-decoration: none;
+}
+
+.work__info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 18px;
+}
+
+.work__dates {
+  color: gray;
+}
+
+.work__desc {
+  text-align: left;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: horizontal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* max-width: 80%; */
+}
+
+@media only screen and (max-width: 720px) {
+  .work__card {
     flex-direction: column;
-    margin-top: 18px;
-}
-
-.work__dates{
-    color: gray;
-}
-
-.work__desc{
-    text-align: left;   
-    display: -webkit-box;
-    -webkit-line-clamp:2;
-    -webkit-box-orient: horizontal;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    /* max-width: 80%; */
-}
-
-@media only screen and (max-width: 720px){
-    .work__card{
-      
-        flex-direction: column;
-    }
-    
+  }
 }

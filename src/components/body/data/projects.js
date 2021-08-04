@@ -3,7 +3,7 @@ export const projectData = [
     id: 1,
     title: "Job-Heist",
     about:
-      "Microservices based Job hunting webapp.Features of JWT authentication,profile pages,skill matching.Implemented ELK stack to view logs and docekrized the app",
+      "Microservices based Job hunting webapp.Features of JWT authentication,profile pages,skill matching.Implemented ELK stack to view logs and dockerized the app",
     tags: [
       { name: "Angular", link: "", icon:"devicon-angularjs-plain colored"},
       { name: "SpringBoot", link: "",icon:"devicon-spring-plain colored"},
